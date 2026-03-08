@@ -1,0 +1,146 @@
+{
+  "id": "apple-noodle-kugel",
+  "title": "Apple Noodle Kugel",
+  "description": "A traditional Jewish noodle kugel made with wide egg noodles, apples, raisins, and cinnamon, topped with a sweet cinnamon-sugar and cornflake crumb mixture.",
+  "category": "Dessert",
+  "tags": [
+    "Jewish",
+    "kugel",
+    "apple",
+    "noodles",
+    "baked",
+    "casserole",
+    "comfort food"
+  ],
+  "yield": {
+    "amount": 7,
+    "unit": "pans"
+  },
+  "timing": {
+    "prep": "PT20M",
+    "cook": "PT1H",
+    "total": "PT1H20M"
+  },
+  "ingredients": [
+    {
+      "heading": "Main Ingredients",
+      "items": [
+        {
+          "quantity": 1.5,
+          "unit": "bags",
+          "item": "wide flat noodles",
+          "notes": "about 7.5 pounds",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cans",
+          "item": "sliced apples",
+          "notes": "#10 cans",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "packages",
+          "item": "dried raisins",
+          "notes": "15 oz packages",
+          "scalable": true
+        },
+        {
+          "quantity": 3,
+          "unit": "quarts",
+          "item": "liquid whole eggs",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "cinnamon",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "sugar",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "pound",
+          "item": "margarine",
+          "scalable": true
+        }
+      ]
+    },
+    {
+      "heading": "Topping",
+      "items": [
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "cinnamon",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "sugar",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "box",
+          "item": "cornflake crumbs",
+          "notes": "16 oz",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Boil noodles and drain. It's always better to first boil the water, remove from the heat, add the noodles, stir, and cover. This will prevent scorched noodles."
+        },
+        {
+          "instruction": "Melt margarine in sauce pan."
+        },
+        {
+          "instruction": "Mix all ingredients together in large container."
+        },
+        {
+          "instruction": "Distribute evenly in 7 to 10 greased pans."
+        },
+        {
+          "instruction": "Mix topping ingredients together and spread evenly over noodles."
+        },
+        {
+          "instruction": "Spray surface with cooking spray and cover with aluminum foil."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Place in oven and bake at 350 to 375 degrees F for about 1 hour.",
+          "duration": "PT1H",
+          "temperature": {
+            "value": 350,
+            "unit": "F"
+          }
+        },
+        {
+          "instruction": "Remove aluminum foil and continue baking until firm to the touch and golden brown. This will only take 5 to 10 minutes at most. Be careful not to burn.",
+          "duration": "PT5M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Can bake between 350-375°F",
+    "Final browning step takes 5-10 minutes - watch carefully to prevent burning"
+  ]
+}
