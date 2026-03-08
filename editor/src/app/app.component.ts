@@ -9,7 +9,7 @@ import { EditorComponent } from './editor/editor.component';
     <header class="app-header">
       <div class="app-header-inner">
         <h1 class="app-title">Recipe Editor</h1>
-        <a href="/" class="site-link">View Recipe Site</a>
+        <a href="https://recipes.yehudardevelopment.com/" class="site-link">View Recipe Site</a>
       </div>
     </header>
     <main class="app-main">
