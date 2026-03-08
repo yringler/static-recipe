@@ -1,0 +1,62 @@
+{
+  "id": "roasted-chicken-thighs",
+  "title": "Garlic-Herb Roasted Chicken Thighs",
+  "description": "Crispy-skinned, juicy chicken thighs roasted with garlic, lemon, and fresh herbs. A reliable weeknight dinner that comes together in under an hour.",
+  "category": "main",
+  "tags": ["meat", "gluten-free", "quick", "weeknight"],
+  "source": "Family recipe",
+  "yield": {
+    "amount": 4,
+    "unit": "servings"
+  },
+  "timing": {
+    "prep": "PT10M",
+    "cook": "PT40M",
+    "total": "PT50M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        { "quantity": 8, "unit": null, "item": "bone-in, skin-on chicken thighs", "scalable": true },
+        { "quantity": 4, "unit": null, "item": "garlic cloves", "notes": "minced", "scalable": true },
+        { "quantity": 3, "unit": "tbsp", "item": "olive oil", "scalable": true },
+        { "quantity": 1, "unit": null, "item": "lemon", "notes": "zested and juiced", "scalable": true },
+        { "quantity": 2, "unit": "tsp", "item": "fresh thyme leaves", "scalable": true },
+        { "quantity": 2, "unit": "tsp", "item": "fresh rosemary", "notes": "finely chopped", "scalable": true },
+        { "quantity": 1.5, "unit": "tsp", "item": "kosher salt", "scalable": false },
+        { "quantity": 0.5, "unit": "tsp", "item": "black pepper", "notes": "freshly ground", "scalable": false },
+        { "quantity": 0.5, "unit": "tsp", "item": "smoked paprika", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "steps": [
+        {
+          "instruction": "Preheat the oven to 425°F. Pat the chicken thighs dry with paper towels — this is the key to crispy skin.",
+          "temperature": { "value": 425, "unit": "F" }
+        },
+        {
+          "instruction": "In a small bowl, mix together the olive oil, garlic, lemon zest, lemon juice, thyme, rosemary, salt, pepper, and paprika to form a paste."
+        },
+        {
+          "instruction": "Rub the herb paste all over the chicken thighs, including under the skin where possible. Arrange skin-side up in a single layer in a large oven-safe skillet or baking dish."
+        },
+        {
+          "instruction": "Roast until the skin is deep golden brown and crispy, and an instant-read thermometer inserted into the thickest part reads 165°F.",
+          "duration": "PT35M",
+          "temperature": { "value": 425, "unit": "F" }
+        },
+        {
+          "instruction": "Let rest for 5 minutes before serving. Spoon the pan juices over the top.",
+          "duration": "PT5M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Bone-in thighs are much more forgiving than breasts — they stay juicy even if slightly overcooked.",
+    "For extra crispy skin, leave the seasoned chicken uncovered in the refrigerator for 1-8 hours before cooking.",
+    "The pan drippings make an excellent base for a quick pan sauce — deglaze with a splash of white wine or chicken stock."
+  ]
+}

@@ -1,0 +1,34 @@
+---
+pagination:
+  data: collections.allTags
+  size: 1
+  alias: tag
+permalink: "/tags/{{ tag }}/"
+layout: base.njk
+eleventyComputed:
+  title: "Recipes tagged: {{ tag }}"
+---
+<div class="tag-page">
+  <a href="/" class="back-link">&larr; All recipes</a>
+  <h1>Recipes tagged: <span class="tag-pill">{{ tag }}</span></h1>
+
+  {% set tagRecipes = tag | recipesForTag %}
+  {% if tagRecipes and tagRecipes.length %}
+  <ul class="recipe-list">
+    {% for recipe in tagRecipes %}
+    <li class="recipe-card">
+      <a href="/recipes/{{ recipe.id }}/" class="recipe-card-link">
+        <h2 class="recipe-card-title">{{ recipe.title }}</h2>
+        <p class="recipe-card-description">{{ recipe.description }}</p>
+        <div class="recipe-card-meta">
+          <span class="category-badge">{{ recipe.category }}</span>
+          <span class="recipe-card-timing">{{ recipe.timing.total | formatDuration }}</span>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No recipes found for this tag.</p>
+  {% endif %}
+</div>

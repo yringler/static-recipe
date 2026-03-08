@@ -1,0 +1,103 @@
+{
+  "id": "challah-bread",
+  "title": "Challah Bread",
+  "description": "A traditional Jewish braided bread with a rich, eggy flavor and beautiful golden crust. Perfect for Shabbat or any special occasion.",
+  "category": "bread",
+  "tags": ["shabbos", "pareve", "dairy-free", "traditional"],
+  "source": "Family recipe",
+  "yield": {
+    "amount": 2,
+    "unit": "loaves"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT35M",
+    "total": "PT3H",
+    "rest": "PT2H"
+  },
+  "ingredients": [
+    {
+      "heading": "Dough",
+      "items": [
+        { "quantity": 7, "unit": "g", "item": "active dry yeast", "notes": "1 packet", "scalable": true },
+        { "quantity": 1, "unit": "cup", "item": "warm water", "notes": "110°F", "scalable": true },
+        { "quantity": 0.33, "unit": "cup", "item": "sugar", "scalable": true },
+        { "quantity": 0.33, "unit": "cup", "item": "vegetable oil", "scalable": true },
+        { "quantity": 4, "unit": null, "item": "large eggs", "notes": "3 for dough, 1 for egg wash", "scalable": true },
+        { "quantity": 1.5, "unit": "tsp", "item": "salt", "scalable": false },
+        { "quantity": 4.5, "unit": "cups", "item": "all-purpose flour", "notes": "plus more for kneading", "scalable": true }
+      ]
+    },
+    {
+      "heading": "Topping",
+      "items": [
+        { "quantity": 2, "unit": "tbsp", "item": "sesame seeds or poppy seeds", "notes": "optional", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Make the Dough",
+      "steps": [
+        {
+          "instruction": "In a large bowl, dissolve the yeast in warm water. Add 1 teaspoon of the sugar and stir. Let stand until foamy.",
+          "duration": "PT10M"
+        },
+        {
+          "instruction": "Add the remaining sugar, oil, 3 eggs, and salt to the yeast mixture. Stir to combine."
+        },
+        {
+          "instruction": "Add flour one cup at a time, mixing after each addition, until a soft, slightly sticky dough forms. Turn out onto a floured surface and knead until smooth and elastic.",
+          "duration": "PT8M"
+        }
+      ]
+    },
+    {
+      "heading": "First Rise",
+      "steps": [
+        {
+          "instruction": "Place the dough in an oiled bowl, cover with plastic wrap or a damp towel, and let rise in a warm place until doubled in size.",
+          "duration": "PT1H30M"
+        }
+      ]
+    },
+    {
+      "heading": "Braid and Second Rise",
+      "steps": [
+        {
+          "instruction": "Punch down the dough and divide into 2 equal portions. Divide each portion into 3 equal strands. Roll each strand into a 16-inch rope and braid tightly. Pinch and tuck the ends under."
+        },
+        {
+          "instruction": "Place the braided loaves on parchment-lined baking sheets. Cover loosely and let rise until puffy.",
+          "duration": "PT45M"
+        }
+      ]
+    },
+    {
+      "heading": "Bake",
+      "steps": [
+        {
+          "instruction": "Preheat the oven.",
+          "temperature": { "value": 375, "unit": "F" }
+        },
+        {
+          "instruction": "Beat the remaining egg with 1 tablespoon of water. Brush generously over the loaves. Sprinkle with seeds if using."
+        },
+        {
+          "instruction": "Bake until deep golden brown and the loaves sound hollow when tapped on the bottom.",
+          "duration": "PT30M",
+          "temperature": { "value": 375, "unit": "F" }
+        },
+        {
+          "instruction": "Cool on a wire rack for at least 20 minutes before slicing.",
+          "duration": "PT20M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The dough should be tacky but not sticky. Add flour sparingly — a wetter dough makes a more tender loaf.",
+    "For a richer flavor, substitute honey for the sugar.",
+    "Challah freezes beautifully — wrap cooled loaves tightly in plastic wrap, then foil. Thaw at room temperature."
+  ]
+}

@@ -1,0 +1,294 @@
+<div class="editor-layout">
+  <!-- ====== LEFT PANEL: JSON ====================================== -->
+  <aside class="json-panel">
+    <div class="panel-header">
+      <h2>JSON</h2>
+      <div class="panel-actions">
+        <button type="button" class="btn btn-secondary" (click)="loadNewRecipe()">New Recipe</button>
+        <button type="button" class="btn btn-primary" (click)="loadFromJSON()">Load →</button>
+      </div>
+    </div>
+
+    <textarea
+      class="json-textarea"
+      [value]="jsonText()"
+      (input)="jsonText.set($any($event.target).value)"
+      placeholder="Paste recipe JSON here, then click Load →"
+      spellcheck="false"
+    ></textarea>
+
+    @if (jsonError()) {
+      <div class="error-box">
+        <strong>Parse Error:</strong> {{ jsonError() }}
+      </div>
+    }
+
+    @if (validationErrors().length > 0) {
+      <div class="error-box">
+        <strong>Validation Errors:</strong>
+        <ul>
+          @for (err of validationErrors(); track err) {
+            <li>{{ err }}</li>
+          }
+        </ul>
+      </div>
+    }
+
+    <div class="panel-footer-actions">
+      <button type="button" class="btn btn-secondary" (click)="validateForm()">Validate</button>
+      <button type="button" class="btn btn-secondary" (click)="generateJSON()">Generate JSON</button>
+      <button type="button" class="btn btn-primary" (click)="copyJSON()">
+        {{ copySuccess() ? '✓ Copied!' : 'Copy JSON' }}
+      </button>
+    </div>
+  </aside>
+
+  <!-- ====== RIGHT PANEL: FORM ===================================== -->
+  <section class="form-panel">
+    <form [formGroup]="form" (ngSubmit)="generateJSON()">
+
+      <!-- ---- Basic Info ----------------------------------------- -->
+      <fieldset class="form-section">
+        <legend>Basic Info</legend>
+
+        <div class="form-row">
+          <label class="form-label" for="f-id">ID (slug)</label>
+          <input id="f-id" class="form-input" type="text" formControlName="id"
+            placeholder="e.g. challah-bread">
+        </div>
+
+        <div class="form-row">
+          <label class="form-label" for="f-title">Title</label>
+          <input id="f-title" class="form-input" type="text" formControlName="title">
+        </div>
+
+        <div class="form-row">
+          <label class="form-label" for="f-description">Description</label>
+          <textarea id="f-description" class="form-input form-textarea" formControlName="description"
+            rows="2"></textarea>
+        </div>
+
+        <div class="form-row form-row-split">
+          <div>
+            <label class="form-label" for="f-category">Category</label>
+            <input id="f-category" class="form-input" type="text" formControlName="category"
+              list="category-options" placeholder="e.g. bread">
+            <datalist id="category-options">
+              @for (cat of categories; track cat) {
+                <option [value]="cat">{{ cat }}</option>
+              }
+            </datalist>
+          </div>
+          <div>
+            <label class="form-label" for="f-source">Source</label>
+            <input id="f-source" class="form-input" type="text" formControlName="source"
+              placeholder="cookbook, URL, family recipe…">
+          </div>
+        </div>
+
+        <!-- Tags -->
+        <div class="form-row">
+          <label class="form-label">Tags</label>
+          <div class="tag-editor">
+            <ul class="tag-chip-list">
+              @for (tag of tags.controls; track $index) {
+                <li class="tag-chip">
+                  {{ tag.value }}
+                  <button type="button" class="tag-chip-remove" (click)="removeTag($index)"
+                    aria-label="Remove tag">×</button>
+                </li>
+              }
+            </ul>
+            <div class="tag-add-row">
+              <input
+                type="text"
+                class="form-input tag-input"
+                placeholder="Add tag…"
+                [value]="tagInput()"
+                (input)="tagInput.set($any($event.target).value)"
+                (keydown.enter)="addTag($event)"
+              >
+              <button type="button" class="btn btn-sm" (click)="addTag($event)">Add</button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- ---- Yield & Timing ------------------------------------- -->
+      <fieldset class="form-section">
+        <legend>Yield &amp; Timing</legend>
+
+        <div class="form-row form-row-split">
+          <div>
+            <label class="form-label" for="f-yield-amount">Yield Amount</label>
+            <input id="f-yield-amount" class="form-input" type="number" formControlName="yieldAmount"
+              min="0" step="0.5">
+          </div>
+          <div>
+            <label class="form-label" for="f-yield-unit">Yield Unit</label>
+            <input id="f-yield-unit" class="form-input" type="text" formControlName="yieldUnit"
+              placeholder="servings, loaves, cookies…">
+          </div>
+        </div>
+
+        <div class="timing-grid">
+          <div class="form-row">
+            <label class="form-label" for="f-prep">Prep Time</label>
+            <input id="f-prep" class="form-input" type="text" formControlName="timingPrep"
+              placeholder="e.g. 30m">
+          </div>
+          <div class="form-row">
+            <label class="form-label" for="f-cook">Cook Time</label>
+            <input id="f-cook" class="form-input" type="text" formControlName="timingCook"
+              placeholder="e.g. 1h30m">
+          </div>
+          <div class="form-row">
+            <label class="form-label" for="f-total">Total Time</label>
+            <input id="f-total" class="form-input" type="text" formControlName="timingTotal"
+              placeholder="e.g. 2h">
+          </div>
+          <div class="form-row">
+            <label class="form-label" for="f-rest">Rest Time <span class="optional">(optional)</span></label>
+            <input id="f-rest" class="form-input" type="text" formControlName="timingRest"
+              placeholder="e.g. 1h">
+          </div>
+        </div>
+        <p class="help-text">Accept formats: "30m", "1h", "1h30m", "1:30"</p>
+      </fieldset>
+
+      <!-- ---- Ingredient Groups ---------------------------------- -->
+      <fieldset class="form-section" formArrayName="ingredientGroups">
+        <legend>Ingredients</legend>
+
+        @for (group of ingredientGroups.controls; track $index; let gi = $index) {
+          <div class="sub-group" [formGroupName]="gi">
+            <div class="sub-group-header">
+              <input class="form-input group-heading-input" type="text" formControlName="heading"
+                placeholder="Group heading (optional, e.g. &quot;For the dough&quot;)">
+              <button type="button" class="btn btn-danger btn-sm"
+                (click)="removeIngredientGroup(gi)"
+                [disabled]="ingredientGroups.length === 1">Remove Group</button>
+            </div>
+
+            <div class="ingredient-table" formArrayName="items">
+              <div class="ingredient-table-header">
+                <span>Qty</span>
+                <span>Unit</span>
+                <span>Item</span>
+                <span>Notes</span>
+                <span>Scalable</span>
+                <span></span>
+              </div>
+
+              @for (row of getIngredientItems(gi).controls; track $index; let ii = $index) {
+                <div class="ingredient-row" [formGroupName]="ii">
+                  <input class="form-input" type="number" formControlName="quantity"
+                    placeholder="qty" step="any">
+                  <input class="form-input" type="text" formControlName="unit"
+                    placeholder="cup, g…">
+                  <input class="form-input" type="text" formControlName="item"
+                    placeholder="ingredient">
+                  <input class="form-input" type="text" formControlName="notes"
+                    placeholder="notes…">
+                  <input type="checkbox" formControlName="scalable" class="scalable-check"
+                    title="Scales with yield">
+                  <div class="row-actions">
+                    <button type="button" class="btn-icon" title="Move up"
+                      (click)="moveIngredientRow(gi, ii, -1)" [disabled]="ii === 0">↑</button>
+                    <button type="button" class="btn-icon" title="Move down"
+                      (click)="moveIngredientRow(gi, ii, 1)"
+                      [disabled]="ii === getIngredientItems(gi).length - 1">↓</button>
+                    <button type="button" class="btn-icon btn-icon-danger" title="Remove row"
+                      (click)="removeIngredientRow(gi, ii)"
+                      [disabled]="getIngredientItems(gi).length === 1">×</button>
+                  </div>
+                </div>
+              }
+            </div>
+
+            <button type="button" class="btn btn-sm btn-secondary"
+              (click)="addIngredientRow(gi)">+ Add Ingredient</button>
+          </div>
+        }
+
+        <button type="button" class="btn btn-secondary" (click)="addIngredientGroup()">
+          + Add Ingredient Group
+        </button>
+      </fieldset>
+
+      <!-- ---- Step Groups ---------------------------------------- -->
+      <fieldset class="form-section" formArrayName="stepGroups">
+        <legend>Instructions</legend>
+
+        @for (group of stepGroups.controls; track $index; let si = $index) {
+          <div class="sub-group" [formGroupName]="si">
+            <div class="sub-group-header">
+              <input class="form-input group-heading-input" type="text" formControlName="heading"
+                placeholder="Step group heading (optional, e.g. &quot;Make the dough&quot;)">
+              <button type="button" class="btn btn-danger btn-sm"
+                (click)="removeStepGroup(si)"
+                [disabled]="stepGroups.length === 1">Remove Group</button>
+            </div>
+
+            <div class="step-list" formArrayName="steps">
+              @for (step of getStepItems(si).controls; track $index; let ri = $index) {
+                <div class="step-row" [formGroupName]="ri">
+                  <div class="step-row-num">{{ ri + 1 }}</div>
+                  <div class="step-row-content">
+                    <textarea class="form-input" formControlName="instruction"
+                      rows="2" placeholder="Step instruction…"></textarea>
+                    <div class="step-row-meta">
+                      <label class="meta-label">Duration</label>
+                      <input class="form-input meta-input" type="text" formControlName="duration"
+                        placeholder="e.g. 30m">
+                      <label class="meta-label">Temp</label>
+                      <input class="form-input meta-input-sm" type="number" formControlName="tempValue"
+                        placeholder="°">
+                      <select class="form-select" formControlName="tempUnit">
+                        <option value="F">°F</option>
+                        <option value="C">°C</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row-actions row-actions-vertical">
+                    <button type="button" class="btn-icon" title="Move up"
+                      (click)="moveStepRow(si, ri, -1)" [disabled]="ri === 0">↑</button>
+                    <button type="button" class="btn-icon" title="Move down"
+                      (click)="moveStepRow(si, ri, 1)"
+                      [disabled]="ri === getStepItems(si).length - 1">↓</button>
+                    <button type="button" class="btn-icon btn-icon-danger" title="Remove step"
+                      (click)="removeStepRow(si, ri)"
+                      [disabled]="getStepItems(si).length === 1">×</button>
+                  </div>
+                </div>
+              }
+            </div>
+
+            <button type="button" class="btn btn-sm btn-secondary"
+              (click)="addStepRow(si)">+ Add Step</button>
+          </div>
+        }
+
+        <button type="button" class="btn btn-secondary" (click)="addStepGroup()">
+          + Add Step Group
+        </button>
+      </fieldset>
+
+      <!-- ---- Notes ---------------------------------------------- -->
+      <fieldset class="form-section" formArrayName="notes">
+        <legend>Notes <span class="optional">(optional)</span></legend>
+
+        @for (note of notes.controls; track $index; let ni = $index) {
+          <div class="note-row">
+            <input class="form-input" type="text" [formControlName]="ni"
+              placeholder="Tip, substitution, storage advice…">
+            <button type="button" class="btn-icon btn-icon-danger" (click)="removeNote(ni)">×</button>
+          </div>
+        }
+
+        <button type="button" class="btn btn-sm btn-secondary" (click)="addNote()">+ Add Note</button>
+      </fieldset>
+
+    </form>
+  </section>
+</div>

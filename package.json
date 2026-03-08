@@ -1,0 +1,16 @@
+{
+  "name": "recipe-site",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "site",
+    "editor"
+  ],
+  "scripts": {
+    "dev:site": "npm run dev --workspace=site",
+    "dev:editor": "npm run dev --workspace=editor",
+    "build:site": "npm run build --workspace=site",
+    "build:editor": "npm run build --workspace=editor",
+    "build": "npm run build:site && npm run build:editor"
+  }
+}
