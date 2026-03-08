@@ -1,0 +1,85 @@
+{
+  "id": "chocolate-chip-cookies",
+  "title": "Classic Chocolate Chip Cookies",
+  "description": "Perfectly chewy in the center with crisp edges, these cookies strike the ideal balance between butter, brown sugar, and semisweet chocolate. A crowd-pleaser every time.",
+  "category": "dessert",
+  "tags": ["dairy", "baking", "quick", "vegetarian"],
+  "source": "Adapted from Ruth Wakefield's original Toll House recipe",
+  "yield": {
+    "amount": 36,
+    "unit": "cookies"
+  },
+  "timing": {
+    "prep": "PT15M",
+    "cook": "PT12M",
+    "total": "PT1H",
+    "rest": "PT30M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        { "quantity": 2.25, "unit": "cups", "item": "all-purpose flour", "scalable": true },
+        { "quantity": 1, "unit": "tsp", "item": "baking soda", "scalable": false },
+        { "quantity": 1, "unit": "tsp", "item": "fine sea salt", "scalable": false },
+        { "quantity": 1, "unit": "cup", "item": "unsalted butter", "notes": "2 sticks, room temperature", "scalable": true },
+        { "quantity": 0.75, "unit": "cup", "item": "granulated sugar", "scalable": true },
+        { "quantity": 0.75, "unit": "cup", "item": "packed brown sugar", "notes": "light or dark", "scalable": true },
+        { "quantity": 2, "unit": null, "item": "large eggs", "notes": "room temperature", "scalable": true },
+        { "quantity": 2, "unit": "tsp", "item": "pure vanilla extract", "scalable": true },
+        { "quantity": 2, "unit": "cups", "item": "semisweet chocolate chips", "scalable": true },
+        { "quantity": null, "unit": null, "item": "flaky sea salt", "notes": "for topping, optional", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Make the Dough",
+      "steps": [
+        {
+          "instruction": "Whisk together the flour, baking soda, and salt in a medium bowl. Set aside."
+        },
+        {
+          "instruction": "In a large bowl, beat the butter and both sugars together with an electric mixer on medium speed until light and fluffy.",
+          "duration": "PT3M"
+        },
+        {
+          "instruction": "Add the eggs one at a time, beating well after each addition. Mix in the vanilla."
+        },
+        {
+          "instruction": "Reduce mixer speed to low. Add the flour mixture in three additions, mixing just until combined after each. Fold in the chocolate chips with a spatula."
+        }
+      ]
+    },
+    {
+      "heading": "Chill and Bake",
+      "steps": [
+        {
+          "instruction": "Cover the dough and refrigerate for at least 30 minutes (or up to 72 hours for deeper flavor). The colder the dough, the less spread.",
+          "duration": "PT30M"
+        },
+        {
+          "instruction": "Preheat the oven. Line baking sheets with parchment paper.",
+          "temperature": { "value": 375, "unit": "F" }
+        },
+        {
+          "instruction": "Scoop rounded tablespoons of dough (about 1.5-inch balls) onto prepared baking sheets, spacing 2 inches apart."
+        },
+        {
+          "instruction": "Bake until the edges are set and golden but the centers still look slightly underdone — they'll firm up as they cool.",
+          "duration": "PT11M",
+          "temperature": { "value": 375, "unit": "F" }
+        },
+        {
+          "instruction": "Immediately sprinkle with flaky salt if using. Let cool on the baking sheet for 5 minutes, then transfer to a wire rack.",
+          "duration": "PT5M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "For bakery-style thick cookies, chill the dough for the full 24-72 hours and use a #24 cookie scoop.",
+    "Brown butter in place of regular butter adds a toasty, nutty depth — just let it cool to room temperature before beating.",
+    "Cookies keep in an airtight container at room temperature for up to 5 days, or freeze baked cookies for up to 3 months.",
+    "You can also freeze scooped dough balls and bake from frozen — add 2-3 minutes to the baking time."
+  ]
+}

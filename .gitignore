@@ -1,3 +1,7 @@
+# Build outputs
+site/_site/
+editor/dist/
+
 # Logs
 logs
 *.log

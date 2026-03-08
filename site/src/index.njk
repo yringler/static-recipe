@@ -1,0 +1,44 @@
+---
+layout: base.njk
+title: All Recipes
+---
+<div class="home">
+  <h1>Recipe Collection</h1>
+  <p class="home-intro">Browse recipes by category, or explore by <a href="#tags">tag</a>.</p>
+
+  {% for group in collections.recipesByCategory %}
+  <section class="category-section" aria-labelledby="cat-{{ group.category }}">
+    <h2 id="cat-{{ group.category }}" class="category-heading">{{ group.category | capitalize }}</h2>
+    <ul class="recipe-list">
+      {% for recipe in group.recipes %}
+      <li class="recipe-card">
+        <a href="/recipes/{{ recipe.id }}/" class="recipe-card-link">
+          <h3 class="recipe-card-title">{{ recipe.title }}</h3>
+          <p class="recipe-card-description">{{ recipe.description }}</p>
+          <div class="recipe-card-meta">
+            <span class="recipe-card-timing">{{ recipe.timing.total | formatDuration }}</span>
+            <span class="recipe-card-yield">{{ recipe.yield.amount }} {{ recipe.yield.unit }}</span>
+          </div>
+          {% if recipe.tags and recipe.tags.length %}
+          <ul class="tag-list" aria-label="Tags">
+            {% for tag in recipe.tags %}
+            <li><span class="tag-pill">{{ tag }}</span></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+
+  <section class="all-tags-section" id="tags" aria-labelledby="tags-heading">
+    <h2 id="tags-heading">Browse by Tag</h2>
+    <ul class="tag-list tag-list-large">
+      {% for tag in collections.allTags %}
+      <li><a href="/tags/{{ tag }}/" class="tag-pill">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
