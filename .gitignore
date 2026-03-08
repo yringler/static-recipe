@@ -1,6 +1,7 @@
 # Build outputs
 site/_site/
 editor/dist/
+editor/.angular/
 
 # Logs
 logs
