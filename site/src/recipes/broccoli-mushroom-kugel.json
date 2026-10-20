@@ -1,0 +1,115 @@
+{
+  "id": "broccoli-mushroom-kugel",
+  "title": "Broccoli Mushroom Kugel",
+  "description": "A large-batch baked egg kugel of broccoli, sauteed onions and sliced mushrooms seasoned with garlic and pepper.",
+  "category": "kugel",
+  "tags": [
+    "pareve",
+    "vegetarian",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/broccoli-mushroom-kugel.jpg"
+  ],
+  "yield": {
+    "amount": 3,
+    "unit": "pans"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT1H",
+    "total": "PT1H30M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 8,
+          "unit": "pounds",
+          "item": "broccoli cuts or florets",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "bag",
+          "item": "diced onions",
+          "notes": "4 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "#10 can",
+          "item": "sliced mushrooms",
+          "notes": "printed as \"1 number 10 can\"",
+          "scalable": true
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "ground black pepper",
+          "scalable": false
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "salt",
+          "scalable": false
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "granulated garlic powder",
+          "scalable": false
+        },
+        {
+          "quantity": 2,
+          "unit": "containers",
+          "item": "homogenized whole eggs",
+          "notes": "quarts",
+          "scalable": true
+        },
+        {
+          "quantity": null,
+          "unit": null,
+          "item": "oil",
+          "notes": "for sauteeing onions",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Sautee diced onions in oil and drain."
+        },
+        {
+          "instruction": "Combine all ingredients and mix well. Put mixture into 3 to 4 greased pans."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Bake in uncovered pans at 350 degrees F for about one hour until egg is firm and slightly browned.",
+          "duration": "PT1H",
+          "temperature": {
+            "value": 350,
+            "unit": "F"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "For fast thawing of frozen broccoli, cover with warm water and drain.",
+    "Transcription note: Yield not stated as such; the recipe says to put the mixture into 3 to 4 greased pans, so yield is recorded as 3 pans (low end of the range).",
+    "Transcription note: Oil for sauteeing appears only in the preparation text, not the ingredient list; added as an unquantified ingredient.",
+    "Timing estimated; not stated in original."
+  ]
+}

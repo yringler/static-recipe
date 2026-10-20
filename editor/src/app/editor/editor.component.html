@@ -289,6 +289,21 @@
         <button type="button" class="btn btn-sm btn-secondary" (click)="addNote()">+ Add Note</button>
       </fieldset>
 
+      <!-- ---- Source Images -------------------------------------- -->
+      <fieldset class="form-section" formArrayName="sourceImages">
+        <legend>Source Images <span class="optional">(optional)</span></legend>
+
+        @for (img of sourceImages.controls; track $index; let si = $index) {
+          <div class="note-row">
+            <input class="form-input" type="text" [formControlName]="si"
+              placeholder="https://… or swaying-branches/recipe-name.jpg">
+            <button type="button" class="btn-icon btn-icon-danger" (click)="removeSourceImage(si)">×</button>
+          </div>
+        }
+
+        <button type="button" class="btn btn-sm btn-secondary" (click)="addSourceImage()">+ Add Source Image</button>
+      </fieldset>
+
     </form>
   </section>
 </div>

@@ -1,0 +1,148 @@
+{
+  "id": "apple-noodle-kugel",
+  "title": "Apple Noodle Kugel",
+  "description": "A large-batch baked noodle kugel with sliced apples, raisins and a cinnamon-sugar cornflake topping.",
+  "category": "kugel",
+  "tags": [
+    "pareve",
+    "vegetarian",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/apple-noodle-kugel.jpg"
+  ],
+  "yield": {
+    "amount": 7,
+    "unit": "pans"
+  },
+  "timing": {
+    "prep": "PT45M",
+    "cook": "PT1H10M",
+    "total": "PT1H55M"
+  },
+  "ingredients": [
+    {
+      "heading": "Kugel",
+      "items": [
+        {
+          "quantity": 1.5,
+          "unit": "bags",
+          "item": "wide flat noodles",
+          "notes": "about 7 1/2 pounds",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "#10 cans",
+          "item": "sliced apples",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "packages",
+          "item": "dried raisins",
+          "notes": "15 oz packages",
+          "scalable": true
+        },
+        {
+          "quantity": 3,
+          "unit": "quarts",
+          "item": "liquid whole eggs",
+          "scalable": true
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "cinnamon",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "sugar",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "pound",
+          "item": "margarine",
+          "scalable": true
+        }
+      ]
+    },
+    {
+      "heading": "Topping",
+      "items": [
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "cinnamon",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "sugar",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "box",
+          "item": "cornflake crumbs",
+          "notes": "16 oz",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Boil noodles and drain. It's always better to first boil the water, remove from the heat, add the noodles, stir and cover. This will prevent scorched noodles."
+        },
+        {
+          "instruction": "Melt margarine in sauce pan."
+        },
+        {
+          "instruction": "Mix all ingredients together in large container."
+        },
+        {
+          "instruction": "Distribute evenly in 7 to 10 greased pans."
+        },
+        {
+          "instruction": "Mix topping ingredients together and spread evenly over noodles."
+        },
+        {
+          "instruction": "Spray surface with cooking spray and cover with aluminum foil."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Place in oven and bake at 350 to 375 degrees F for about 1 hour.",
+          "duration": "PT1H",
+          "temperature": {
+            "value": 350,
+            "unit": "F"
+          }
+        },
+        {
+          "instruction": "Remove aluminum foil and continue baking until firm to the touch and golden brown. This will only take 5 to 10 minutes at most. Be careful not to burn.",
+          "duration": "PT10M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Transcription note: Yield not stated as such; the recipe says to distribute into 7 to 10 greased pans, so yield is recorded as 7 pans (low end of the range).",
+    "Transcription note: Oven temperature is printed as a range (350 to 375 degrees F); the step temperature field records 350.",
+    "Timing estimated; not stated in original.",
+    "Transcription note: Step durations record the stated \"about 1 hour\" bake and the upper end of the 5 to 10 minute uncovered bake."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "potato-leek-soup",
+  "title": "Potato Leek Soup",
+  "description": "A large-batch potato soup with sauteed leeks and onions, finished with non-dairy creamer.",
+  "category": "soup",
+  "tags": [
+    "pareve",
+    "vegetarian",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/potato-leek-soup.jpg"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "large pot"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT45M",
+    "total": "PT1H15M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 10,
+          "unit": "lbs.",
+          "item": "large diced potatoes",
+          "scalable": true
+        },
+        {
+          "quantity": 2.5,
+          "unit": "lbs.",
+          "item": "diced onions",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "bunches",
+          "item": "leeks",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "telma vegetable broth",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "tsp",
+          "item": "white pepper",
+          "scalable": false
+        },
+        {
+          "quantity": 1,
+          "unit": "quart",
+          "item": "Rich's Non Dairy Creamer",
+          "scalable": true
+        },
+        {
+          "quantity": null,
+          "unit": null,
+          "item": "oil",
+          "notes": "for sauteeing; not listed with quantity in original",
+          "scalable": false
+        },
+        {
+          "quantity": null,
+          "unit": null,
+          "item": "water",
+          "notes": "amount not stated in original",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Use the bottom white part of the leeks only, discard the green tops, dice into 3/8 inch pieces, wash thoroughly, drain and sautee in oil for about 10 to 15 minutes until cooked but not browned.",
+          "duration": "PT15M"
+        },
+        {
+          "instruction": "Sautee diced onions in oil until golden brown and drain."
+        },
+        {
+          "instruction": "Boil water, add white pepper and vegetable broth, mix thoroughly, add diced potatoes, onions and leeks, bring to boil, remove from heat and add Rich's Non Dairy Creamer and mix gently."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Add 1 to 2 tablespoons of granulated garlic to cover up onion taste if onion taste is too extreme.",
+    "Transcription note: Oil and water are used in the steps but not listed in the ingredients; added here with no quantity.",
+    "Transcription note: Yield not stated in original; recorded as 1 large pot.",
+    "Timing estimated; not stated in original."
+  ]
+}

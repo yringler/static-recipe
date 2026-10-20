@@ -483,10 +483,150 @@ a.tag-pill:hover {
   color: #555;
 }
 
+/* --- Source Review (side-by-side with original scan) ------- */
+.review-toggle {
+  margin-top: 0.75rem;
+  padding: 0.4em 0.9em;
+  border: 1px solid #5c6bc0;
+  border-radius: 4px;
+  background: #fff;
+  color: #3949ab;
+  font: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.review-toggle:hover,
+.review-toggle[aria-expanded="true"] {
+  background: #e8eaf6;
+}
+
+body.is-reviewing .site-main {
+  max-width: 1600px;
+}
+
+body.is-reviewing .recipe-layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Narrow screens: original is pinned as a bottom sheet, recipe scrolls above */
+@media (max-width: 999px) {
+  .source-pane {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 45vh;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.12);
+    z-index: 10;
+  }
+
+  .source-pane-viewport {
+    min-height: 0;
+  }
+
+  body.is-reviewing .site-main {
+    padding-bottom: calc(45vh + 2rem);
+  }
+}
+
+@media (min-width: 1000px) {
+  body.is-reviewing .recipe-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  /* Recipe column is half-width here, so stack ingredients above steps */
+  body.is-reviewing .recipe-body {
+    grid-template-columns: 1fr;
+  }
+
+  .source-pane {
+    position: sticky;
+    top: 1rem;
+    height: calc(100vh - 2rem);
+  }
+}
+
+.source-pane {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e5e5e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.source-pane[hidden] {
+  display: none;
+}
+
+.source-pane-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #f0f0ed;
+  font-size: 0.875rem;
+}
+
+.source-pages {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.source-pane-toolbar button {
+  padding: 0.25em 0.7em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.source-pane-toolbar button[aria-pressed="true"] {
+  background: #e8eaf6;
+  border-color: #5c6bc0;
+}
+
+.source-open-link {
+  margin-right: auto;
+}
+
+.source-close-btn {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.source-pane-viewport {
+  flex: 1;
+  overflow: auto;
+  min-height: 60vh;
+  background: #f4f4f1;
+}
+
+.source-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: zoom-in;
+}
+
+.source-pane.is-zoomed .source-image {
+  width: 200%;
+  max-width: none;
+  cursor: zoom-out;
+}
+
 /* --- Print ------------------------------------------------- */
 @media print {
   .site-header,
   .site-footer,
+  .review-toggle,
+  .source-pane,
   .yield-row,
   .back-link,
   .tag-list,

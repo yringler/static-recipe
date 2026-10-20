@@ -1,0 +1,102 @@
+{
+  "id": "navy-bean-soup",
+  "title": "Navy Bean Soup",
+  "description": "A large-batch soup of dried navy beans, carrots and browned onions in chicken consomme.",
+  "category": "soup",
+  "tags": [
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/navy-bean-soup.jpg"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "quarts"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT2H",
+    "total": "PT2H30M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 5,
+          "unit": "1 lb bag",
+          "item": "dried navy beans",
+          "scalable": true
+        },
+        {
+          "quantity": 3,
+          "unit": "2 lb bag",
+          "item": "sliced carrots",
+          "scalable": true
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "white pepper",
+          "scalable": false
+        },
+        {
+          "quantity": 1.5,
+          "unit": "cups",
+          "item": "Osem Chicken Consomme",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "bag",
+          "item": "diced onions",
+          "notes": "4 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "oil",
+          "scalable": true
+        },
+        {
+          "quantity": 12,
+          "unit": "quarts",
+          "item": "water",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Bring water to boil and add chicken consomme and white pepper."
+        },
+        {
+          "instruction": "Add dried beans and bring to boil and then add sliced carrots again bringing to boil. Simmer."
+        },
+        {
+          "instruction": "Sautee onions with oil until brown, drain well and add to soup. Cover."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Simmer for 1 1/2 to 2 hours until beans are tender, stirring continuously.",
+          "duration": "PT1H30M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Note that as soon as you feel resistance on bottom of pan, remove from heat, otherwise scorching will occur. Never leave pot on burner because the pilot light will cause scorching.",
+    "Transcription note: Yield not stated in original; estimated from the 12 quarts of water.",
+    "Timing estimated; not stated in original. Cook time uses the stated 1 1/2 to 2 hour simmer."
+  ]
+}

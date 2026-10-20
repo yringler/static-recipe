@@ -1,0 +1,97 @@
+{
+  "id": "pea-soup",
+  "title": "Pea Soup",
+  "description": "A large-batch split pea soup with onions and carrots, thickened with potato starch.",
+  "category": "soup",
+  "tags": [
+    "pareve",
+    "vegetarian",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/pea-soup.jpg"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "pot"
+  },
+  "timing": {
+    "prep": "PT15M",
+    "cook": "PT2H",
+    "total": "PT2H15M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 4,
+          "unit": "pounds",
+          "item": "dried split peas",
+          "notes": "3 quarts",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "pounds",
+          "item": "diced onions",
+          "notes": "1/2 bag",
+          "scalable": true
+        },
+        {
+          "quantity": 5,
+          "unit": "pounds",
+          "item": "sliced carrots",
+          "notes": "1/2 bag",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "salt",
+          "scalable": false
+        },
+        {
+          "quantity": 14,
+          "unit": "quarts",
+          "item": "water",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "potato starch",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Add all ingredients (except potato starch) to boiling water."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Simmer for 1 to 2 hours until peas are broken down. Stir every 5 to 10 minutes to prevent scorching. Thick soups will scorch easily.",
+          "duration": "PT2H"
+        },
+        {
+          "instruction": "Remove from heat. Mix potato starch with 2 cups of cold water and add to soup while stirring constantly. This will prevent soup from settling out."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Transcription note: Yield not stated in original; recorded as 1 pot (roughly 14 quarts of water plus vegetables).",
+    "Timing estimated; not stated in original.",
+    "Transcription note: Simmer duration records the upper end of the stated 1 to 2 hours."
+  ]
+}

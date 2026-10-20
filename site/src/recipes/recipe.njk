@@ -8,6 +8,7 @@ layout: base.njk
 eleventyComputed:
   title: "{{ recipe.title }}"
 ---
+<div class="recipe-layout">
 <article class="recipe">
   <header class="recipe-header">
     <h1 class="recipe-title">{{ recipe.title }}</h1>
@@ -26,6 +27,12 @@ eleventyComputed:
 
     {% if recipe.source %}
     <p class="recipe-source">Source: <em>{{ recipe.source }}</em></p>
+    {% endif %}
+
+    {% if recipe.sourceImages and recipe.sourceImages.length %}
+    <button type="button" class="review-toggle" aria-controls="source-pane" aria-expanded="false">
+      Compare with original
+    </button>
     {% endif %}
   </header>
 
@@ -137,4 +144,33 @@ eleventyComputed:
   {% endif %}
 </article>
 
+{% if recipe.sourceImages and recipe.sourceImages.length %}
+<aside class="source-pane" id="source-pane" aria-label="Original recipe" hidden>
+  <div class="source-pane-toolbar">
+    {% if recipe.sourceImages.length > 1 %}
+    <div class="source-pages" role="group" aria-label="Pages">
+      {% for img in recipe.sourceImages %}
+      <button type="button" class="source-page-btn" data-page="{{ loop.index0 }}"
+        aria-pressed="{{ 'true' if loop.first else 'false' }}">Page {{ loop.index }}</button>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <button type="button" class="source-zoom-btn" aria-pressed="false">Zoom</button>
+    <a class="source-open-link" href="{{ recipe.sourceImages[0] | imageUrl(site.imageBaseUrl) }}" target="_blank" rel="noopener">Open image</a>
+    <button type="button" class="source-close-btn" aria-label="Close original">×</button>
+  </div>
+  <div class="source-pane-viewport">
+    {% for img in recipe.sourceImages %}
+    <img class="source-image" src="{{ img | imageUrl(site.imageBaseUrl) }}"
+      alt="Original scan of {{ recipe.title }}{% if recipe.sourceImages.length > 1 %}, page {{ loop.index }}{% endif %}"
+      loading="lazy" {% if not loop.first %}hidden{% endif %}>
+    {% endfor %}
+  </div>
+</aside>
+{% endif %}
+</div>
+
 <script src="/js/scaler.js"></script>
+{% if recipe.sourceImages and recipe.sourceImages.length %}
+<script src="/js/review.js"></script>
+{% endif %}

@@ -1,0 +1,86 @@
+{
+  "id": "tuna-fish-salad",
+  "title": "Tuna Fish Salad",
+  "description": "A large-batch tuna salad with mayonnaise, sweet relish, Mrs. Dash seasoning and chopped hard boiled eggs.",
+  "category": "salad",
+  "tags": [
+    "pareve",
+    "fish",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/tuna-fish-salad.jpg"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "timing": {
+    "prep": "PT20M",
+    "cook": "PT0M",
+    "total": "PT20M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 1,
+          "unit": "large can",
+          "item": "tuna fish",
+          "notes": "4 pounds",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "mayonnaise",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "sweet relish",
+          "scalable": true
+        },
+        {
+          "quantity": 20,
+          "unit": "packets",
+          "item": "Mrs. Dash",
+          "scalable": false
+        },
+        {
+          "quantity": 2,
+          "unit": null,
+          "item": "hard boiled eggs",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Drain tuna fish thoroughly, by pressing down on lid of tuna over sink."
+        },
+        {
+          "instruction": "Coarse grind eggs in food processor."
+        },
+        {
+          "instruction": "Combine all ingredients and mix."
+        },
+        {
+          "instruction": "Chill."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "It's best to prechill ingredients before using for safety reasons.",
+    "Transcription note: Yield not stated in original; recorded as 1 batch (about 4 pounds of tuna).",
+    "Timing estimated; not stated in original. Chilling time not included."
+  ]
+}

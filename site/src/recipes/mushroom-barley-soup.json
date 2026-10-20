@@ -1,0 +1,108 @@
+{
+  "id": "mushroom-barley-soup",
+  "title": "Mushroom Barley Soup",
+  "description": "A large-batch soup of barley, sauteed mushrooms and onions in a beef-flavored broth.",
+  "category": "soup",
+  "tags": [
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/mushroom-barley-soup.jpg"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "quarts"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT45M",
+    "total": "PT1H15M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 4,
+          "unit": "1 lb bag",
+          "item": "barley",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "bag",
+          "item": "diced onions",
+          "notes": "2 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 1.5,
+          "unit": "cups",
+          "item": "telma beef broth",
+          "notes": "dry",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "oil",
+          "scalable": true
+        },
+        {
+          "quantity": 12,
+          "unit": "quarts",
+          "item": "water",
+          "scalable": true
+        },
+        {
+          "quantity": 0.125,
+          "unit": "cup",
+          "item": "white pepper",
+          "scalable": false
+        },
+        {
+          "quantity": 1,
+          "unit": "box",
+          "item": "sliced mushrooms",
+          "notes": "10 lbs",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Wash mushrooms, drain, put in frying pan with oil and sautee. Drain mushrooms."
+        },
+        {
+          "instruction": "Sautee diced onions with oil and drain."
+        },
+        {
+          "instruction": "Boil water add telma beef broth, white pepper and barley. Cook barley until tender (approx 30 minutes).",
+          "duration": "PT30M"
+        },
+        {
+          "instruction": "Combine ingredients."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Simmer for 15 minutes, stirring constantly.",
+          "duration": "PT15M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Always check barley for weevil larvae and adult bugs by soaking in cold water before using.",
+    "Transcription note: Yield not stated in original; estimated from the 12 quarts of water.",
+    "Timing estimated; not stated in original."
+  ]
+}

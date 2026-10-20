@@ -1,0 +1,102 @@
+{
+  "id": "macaroni-and-cheese",
+  "title": "Macaroni and Cheese",
+  "description": "A baked macaroni and cheese made with American and cheddar cheeses in a potato-starch-thickened milk sauce.",
+  "category": "main",
+  "tags": [
+    "dairy",
+    "vegetarian",
+    "baked",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/macaroni-and-cheese.jpg"
+  ],
+  "yield": {
+    "amount": 8,
+    "unit": "pans"
+  },
+  "timing": {
+    "prep": "PT1H",
+    "cook": "PT1H30M",
+    "total": "PT2H30M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 6,
+          "unit": "lbs",
+          "item": "American cheese",
+          "scalable": true
+        },
+        {
+          "quantity": 7.5,
+          "unit": "lbs",
+          "item": "shredded cheddar",
+          "scalable": true
+        },
+        {
+          "quantity": 4,
+          "unit": "gallons",
+          "item": "milk",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "potato starch",
+          "scalable": true
+        },
+        {
+          "quantity": 15,
+          "unit": "lbs",
+          "item": "elbow macaroni",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Combine American cheese, cheddar cheese and milk in pot over low flame, stirring continuously until all cheese is dissolved. To expedite the melting process two pots may be used. This will also reduce scorching."
+        },
+        {
+          "instruction": "Mix potato starch with water and add to melted cheese stirring continuously until mixture has a creamy texture."
+        },
+        {
+          "instruction": "Boil water and add macaroni and stir. Cover and take off heat and let sit 15 to 20 minutes. Cool with running water and drain.",
+          "duration": "PT20M"
+        },
+        {
+          "instruction": "Combine cheese mix with macaroni and add to greased 10 x 13 inch pan. Regular cooking spray can be used. Spray with cooking spray, to prevent sticking and cover with aluminum foil."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Cook in oven for 1 to 1 1/2 hours at 365 F until an internal temp of 160 F is attained.",
+          "duration": "PT1H30M",
+          "temperature": {
+            "value": 365,
+            "unit": "F"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Makes 8 to 12 pans.",
+    "Prep time estimated; not stated in original. Cook time is the stated 1 to 1 1/2 hours.",
+    "Transcription note: Oven temperature is printed clearly as 365 F (verified on zoom); kept as printed.",
+    "Transcription note: Title printed as \"Macaroni @ Cheese\"; cleaned to \"Macaroni and Cheese\".",
+    "Transcription note: Ingredient printed as \"elbow macoroni\"; corrected to \"elbow macaroni\"."
+  ]
+}

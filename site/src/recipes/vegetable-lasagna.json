@@ -1,0 +1,166 @@
+{
+  "id": "vegetable-lasagna",
+  "title": "Vegetable Lasagna",
+  "description": "Layered lasagna with spinach, mushrooms, pizza sauce, a cottage cheese and egg mixture, and mozzarella, made in aluminum pans.",
+  "category": "main",
+  "tags": [
+    "dairy",
+    "vegetarian",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/vegetable-lasagna-1.jpg",
+    "swaying-branches/vegetable-lasagna-2.jpg"
+  ],
+  "yield": {
+    "amount": 12,
+    "unit": "pans"
+  },
+  "timing": {
+    "prep": "PT1H30M",
+    "cook": "PT1H50M",
+    "total": "PT3H20M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 6,
+          "unit": "lbs",
+          "item": "frozen chopped spinach",
+          "scalable": true
+        },
+        {
+          "quantity": 10,
+          "unit": "lbs",
+          "item": "sliced mushrooms",
+          "scalable": true
+        },
+        {
+          "quantity": 7,
+          "unit": "#10 can",
+          "item": "Don Pepino Pizza Sauce",
+          "scalable": true
+        },
+        {
+          "quantity": null,
+          "unit": null,
+          "item": "lasagna noodles",
+          "notes": "quantity not stated; 4 per layer",
+          "scalable": true
+        },
+        {
+          "quantity": 8,
+          "unit": "1 lb container",
+          "item": "cottage cheese",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "olive oil",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "quart",
+          "item": "liquid whole eggs",
+          "notes": "pasteurized",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "granulated garlic powder",
+          "scalable": true
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "Italian spices",
+          "scalable": false
+        },
+        {
+          "quantity": 10,
+          "unit": "lbs",
+          "item": "shredded mozzarella cheese",
+          "scalable": true
+        },
+        {
+          "quantity": null,
+          "unit": null,
+          "item": "soy or canola oil spray",
+          "notes": "not in original ingredient list; used in steps 2 and 6",
+          "scalable": false
+        },
+        {
+          "quantity": 12,
+          "unit": null,
+          "item": "10 x 13 inch aluminum pans",
+          "notes": "equipment",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Step 1: Sautee sliced mushrooms and drain. Thaw chopped spinach. Combine cottage cheese, eggs and Italian spices. Mix Don Pepino Pizza Sauce, granulated garlic powder, olive oil, mushrooms and spinach in large container."
+        },
+        {
+          "instruction": "Step 2: Spray aluminum pans generously."
+        },
+        {
+          "instruction": "Step 3: Cover bottom of pan with 4 lasagna noodles. Cover noodles with 12 oz of pizza sauce mixture and 4 oz of cottage cheese mixture. Stir it gently and even it out. Sprinkle generously with mozzarella cheese."
+        },
+        {
+          "instruction": "Step 4: Repeat step 3 and firmly press down on lasagna noodles. Cover noodles with 12 oz of pizza sauce mixture and 4 oz of cottage cheese mixture. Stir it gently and even it out. Sprinkle generously with mozzarella cheese."
+        },
+        {
+          "instruction": "Step 5: Repeat step 3. Cover noodles with 12 oz of pizza sauce mixture and 4 oz of cottage cheese mixture. Stir it gently and even it out. Do not sprinkle with mozzarella cheese."
+        },
+        {
+          "instruction": "Step 6: Spray with soy or canola oil and cover tightly with aluminum foil."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Place in 375 Deg F oven for 1 1/2 hours or until noodles are soft. Use thermometer or long tooth picks. Internal temp should be greater than 160 Deg F.",
+          "duration": "PT1H30M",
+          "temperature": {
+            "value": 375,
+            "unit": "F"
+          }
+        },
+        {
+          "instruction": "Remove from oven. Remove aluminum foil."
+        },
+        {
+          "instruction": "Sprinkle generously with mozzarella cheese, put back in oven and brown. Will take 10 to 20 minutes.",
+          "duration": "PT20M",
+          "temperature": {
+            "value": 375,
+            "unit": "F"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Makes 12 pans of lasagna.",
+    "Transcription note: The 12 10 x 13 inch aluminum pans are printed in the original ingredient list and kept there as equipment.",
+    "Transcription note: Original prints '12 0z' (zero) for the pizza sauce amount; read as 12 oz.",
+    "Transcription note: Recipe continues onto a second page (last two lines and yield).",
+    "Transcription note: Lasagna noodle quantity not printed. Soy or canola oil spray is used in Steps 2 and 6 but is not in the original ingredient list; added without a quantity.",
+    "Transcription note: Oven temperature for the browning step is not restated; assumed the same 375 F oven.",
+    "Timing estimated; prep not stated in original. Cook time uses the stated 1 1/2 hours plus up to 20 minutes browning."
+  ]
+}

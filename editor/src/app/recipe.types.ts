@@ -8,6 +8,7 @@ export interface Recipe {
   category: string;
   tags: string[];
   source?: string;
+  sourceImages?: string[];
   yield: { amount: number; unit: string };
   timing: { prep: string; cook: string; total: string; rest?: string };
   ingredients: IngredientGroup[];
@@ -53,4 +54,4 @@ export const EMPTY_RECIPE: Recipe = {
   notes: [],
 };
 
-export const CATEGORIES = ['bread', 'dessert', 'main', 'side', 'snack', 'soup', 'salad'];
+export const CATEGORIES = ['bread', 'dessert', 'kugel', 'main', 'side', 'snack', 'soup', 'salad'];

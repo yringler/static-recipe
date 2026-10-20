@@ -1,0 +1,102 @@
+{
+  "id": "broccoli-soup",
+  "title": "Broccoli Soup",
+  "description": "A large-batch creamy pareve broccoli soup made with vegetable broth, Coffee Rich and potato starch.",
+  "category": "soup",
+  "tags": [
+    "pareve",
+    "vegetarian",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/broccoli-soup.jpg"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "pot"
+  },
+  "timing": {
+    "prep": "PT15M",
+    "cook": "PT30M",
+    "total": "PT45M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 4,
+          "unit": "packages",
+          "item": "chopped broccoli",
+          "notes": "2 lbs. / pkg",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "lbs",
+          "item": "diced onions",
+          "notes": "1/2 bag of 4 lb bag",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cups",
+          "item": "Telma Vegetable Broth",
+          "notes": "1 to 2 cups",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "tsp",
+          "item": "white pepper",
+          "scalable": false
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "potato starch",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "quart",
+          "item": "Coffee Rich",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "quarts",
+          "item": "water",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Boil water add vegetable broth, white pepper then add chopped broccoli, bring to boil and immediately remove from heat."
+        },
+        {
+          "instruction": "Sautee onions, drain and add to soup."
+        },
+        {
+          "instruction": "Add Coffee Rich and mix thoroughly."
+        },
+        {
+          "instruction": "Add potato starch to soup(first mixing it with cold water) and stir thoroughly."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Add 1 to 2 tablespoons granulated garlic to cover up onion taste if onion taste is too extreme.",
+    "Transcription note: Vegetable broth is printed as a range (1 to 2 cups); quantity records the low end.",
+    "Transcription note: Yield not stated in original; recorded as 1 pot.",
+    "Timing estimated; not stated in original.",
+    "Transcription note: The left edge of the scan is clipped, cutting the first letter of the section labels (Ingredients, Preparation, Notes); no ingredient, step or note text is lost."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "turkey-salad",
+  "title": "Turkey Salad",
+  "description": "Coarsely ground turkey seasoned with Mrs. Dash and mixed with mayonnaise.",
+  "category": "salad",
+  "tags": [
+    "meat",
+    "no-cook",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "sourceImages": [
+    "swaying-branches/turkey-salad.jpg"
+  ],
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "timing": {
+    "prep": "PT10M",
+    "cook": "PT0M",
+    "total": "PT10M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 6,
+          "unit": "pkgs.",
+          "item": "turkey",
+          "notes": "3 oz each",
+          "scalable": true
+        },
+        {
+          "quantity": 3,
+          "unit": "packets",
+          "item": "Mrs. Dash",
+          "scalable": false
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "mayo",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Coarse grind turkey with Mrs. Dash in food processor."
+        },
+        {
+          "instruction": "Combine remaining ingredients and mix with spatula."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Transcription note: Yield not stated in original; recorded as 1 batch (about 18 oz turkey).",
+    "Transcription note: '6 pkgs. (3 oz) turkey' read as six 3 oz packages.",
+    "Timing estimated; not stated in original."
+  ]
+}
