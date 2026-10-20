@@ -1,0 +1,92 @@
+{
+  "id": "curried-cream-of-chicken-soup",
+  "title": "Curried Cream of Chicken Soup",
+  "description": "A spicy, creamy chicken and vegetable soup seasoned with curry powder and black pepper.",
+  "category": "soup",
+  "tags": [
+    "meat",
+    "spicy",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 3,
+    "unit": "gallons"
+  },
+  "timing": {
+    "prep": "PT15M",
+    "cook": "PT45M",
+    "total": "PT1H"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 8,
+          "unit": "lbs",
+          "item": "mixed vegetables",
+          "notes": "4 2 lb bags",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "quart",
+          "item": "Rich's non dairy creamer",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "Osem Chicken Consomme",
+          "scalable": true
+        },
+        {
+          "quantity": 0.125,
+          "unit": "cup",
+          "item": "ground black pepper",
+          "notes": "1 oz",
+          "scalable": false
+        },
+        {
+          "quantity": 0.125,
+          "unit": "cup",
+          "item": "curry powder",
+          "notes": "1 oz",
+          "scalable": false
+        },
+        {
+          "quantity": 1,
+          "unit": "pound",
+          "item": "boiled chicken",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "#10 can",
+          "item": "diced tomatoes",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Add vegetables, chicken and diced tomatoes to about 8 quarts of water."
+        },
+        {
+          "instruction": "Bring to boil and add remaining ingredients."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Is a spicy soup. Increase or decrease pepper and curry powder to taste.",
+    "The original's Cooking Instructions read only \"As above.\"",
+    "Timing estimated; not stated in original.",
+    "Transcription note: Yield not stated in original; about 3 gallons estimated from 8 quarts of water plus the listed ingredients."
+  ]
+}

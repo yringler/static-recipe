@@ -1,0 +1,71 @@
+{
+  "id": "egg-salad",
+  "title": "Egg Salad",
+  "description": "A large-batch egg salad of coarsely ground eggs mixed with Mrs. Dash, sweet relish and mayonnaise.",
+  "category": "salad",
+  "tags": [
+    "pareve",
+    "vegetarian",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 3,
+    "unit": "quarts"
+  },
+  "timing": {
+    "prep": "PT20M",
+    "cook": "PT0M",
+    "total": "PT20M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 3,
+          "unit": "pkgs",
+          "item": "eggs",
+          "notes": "dozen eggs/pkg",
+          "scalable": true
+        },
+        {
+          "quantity": 12,
+          "unit": "packets",
+          "item": "Mrs. Dash",
+          "scalable": false
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "sweet relish",
+          "scalable": true
+        },
+        {
+          "quantity": 1.5,
+          "unit": "cups",
+          "item": "mayonnaise",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Coarsely grind eggs in food processor with Mrs. Dash."
+        },
+        {
+          "instruction": "Combine remaining ingredients and mix with spatula. Enough sweet relish should be added to just taste and enough mayo to make smooth."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Timing estimated; not stated in original.",
+    "The original does not say how the eggs are cooked; hard-boiled, peeled eggs are presumably intended.",
+    "Transcription note: Yield not stated in original; about 3 quarts estimated from 36 eggs plus 2 cups of relish and mayonnaise."
+  ]
+}

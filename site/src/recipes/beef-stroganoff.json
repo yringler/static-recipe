@@ -1,0 +1,145 @@
+{
+  "id": "beef-stroganoff",
+  "title": "Beef Stroganoff",
+  "description": "A large-batch beef stroganoff of sauteed beef, onions and carrots in a thickened non-dairy beef sauce with wide egg noodles, packed in pans for freezing.",
+  "category": "main",
+  "tags": [
+    "meat",
+    "large-batch",
+    "freezer",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "timing": {
+    "prep": "PT1H30M",
+    "cook": "PT1H",
+    "total": "PT2H30M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 1,
+          "unit": "bag",
+          "item": "diced onions",
+          "notes": "4 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 5,
+          "unit": "lbs",
+          "item": "sliced carrots",
+          "notes": "5 to 6 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "granulated garlic",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "pans",
+          "item": "cubed beef",
+          "notes": "8 to 10 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 6,
+          "unit": "quarts",
+          "item": "water",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "pareve Telma Beef Broth",
+          "notes": "dry",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "tsb",
+          "item": "white pepper",
+          "notes": "printed 'tsb'; ambiguous between teaspoon and tablespoon",
+          "scalable": false
+        },
+        {
+          "quantity": 2,
+          "unit": "quarts",
+          "item": "Coffee Rich",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "ketchup",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "bag",
+          "item": "wide egg noodles",
+          "notes": "5 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "potato starch",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Boil water, remove from heat, add noodles, stir, cover and let stand for 15 to 20 minutes. Cool under running water and drain.",
+          "duration": "PT20M"
+        },
+        {
+          "instruction": "Sautee onions to golden brown and drain."
+        },
+        {
+          "instruction": "Boil carrots in water. Drain but use drained liquid for beef stock."
+        },
+        {
+          "instruction": "Sautee beef cubes, cool and using food processor slice into 1/8 inch pieces or slice by hand (tedious)."
+        },
+        {
+          "instruction": "Boil water add beef broth, white pepper, garlic, Coffee Rich, ketchup and any drippings from sautéed beef."
+        },
+        {
+          "instruction": "Add potato starch to beef broth and thicken."
+        },
+        {
+          "instruction": "Combine all ingredients and place in 10 x 13 inch pans. Cover and freeze."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "None."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Prepared ahead and frozen in 10 x 13 inch pans; the original gives no cooking (reheating) instructions.",
+    "Transcription note: White pepper unit printed as '1 tsb'; ambiguous between teaspoon and tablespoon (likely tablespoon), kept as printed.",
+    "Transcription note: Beef quantity printed as '(8 to 10 1bs)', read as 8 to 10 lbs.",
+    "Transcription note: Faint bleed-through text from the reverse side of the page (an unrelated blintz recipe) is visible behind the ingredients and preparation; it was ignored.",
+    "Transcription note: Yield not stated in original; recorded as 1 batch (number of 10 x 13 inch pans not given).",
+    "Timing estimated; not stated in original."
+  ]
+}

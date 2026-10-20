@@ -1,0 +1,78 @@
+{
+  "id": "franks-and-beans",
+  "title": "Franks and Beans",
+  "description": "Sliced hot dogs simmered with vegetarian baked beans, ketchup and brown sugar.",
+  "category": "main",
+  "tags": [
+    "meat",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT15M",
+    "total": "PT45M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 1,
+          "unit": "#10 can",
+          "item": "vegetarian baked beans",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "cup",
+          "item": "ketchup",
+          "scalable": true
+        },
+        {
+          "quantity": 1.5,
+          "unit": "cups",
+          "item": "brown sugar",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "pounds",
+          "item": "hot dogs",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Slice hot dogs into 3/8 inch pieces and boil for 15 to 20 minutes.",
+          "duration": "PT20M"
+        },
+        {
+          "instruction": "Drain hot dogs and add remaining ingredients."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Simmer for 15 minutes, stirring occasionally to avoid scorching.",
+          "duration": "PT15M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Transcription note: Yield not stated in original; recorded as 1 batch (one #10 can of beans).",
+    "Timing estimated; not stated in original. Prep time estimated from the stated 15 to 20 minute boil plus slicing; cook time is the stated 15 minute simmer."
+  ]
+}

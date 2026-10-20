@@ -1,0 +1,101 @@
+{
+  "id": "meat-loaf",
+  "title": "Meat Loaf",
+  "description": "A large-batch meat loaf of ground beef bound with liquid eggs and cornflake crumbs, seasoned with pepper, onion and garlic powder.",
+  "category": "main",
+  "tags": [
+    "meat",
+    "baked",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 8,
+    "unit": "loaves"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT2H",
+    "total": "PT2H30M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 15,
+          "unit": "pounds",
+          "item": "ground beef",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "quarts",
+          "item": "liquid whole eggs",
+          "scalable": true
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "black pepper",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "onion powder",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "garlic powder",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "box",
+          "item": "cornflake crumbs",
+          "notes": "1 lb",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Mix ground beef with cornflake crumbs."
+        },
+        {
+          "instruction": "Mix black pepper, onion powder and garlic powder with eggs."
+        },
+        {
+          "instruction": "Shape into loaves, no more than 12 in long, otherwise when the meat shrinks upon baking, it will pull the loaf apart."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Put about 1/2 inch water in pan and cover with aluminum foil."
+        },
+        {
+          "instruction": "Bake for 1 1/2 to 2 hours until internal temp of 175 deg F is reached. Time will vary according to thickness of meatloaf.",
+          "duration": "PT2H"
+        },
+        {
+          "instruction": "Uncover and brown and throw out all liquid left in pan."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Oven temperature is not stated in the original; only the internal temperature of 175 deg F.",
+    "Prep time estimated; not stated in original. Cook time is the stated 1 1/2 to 2 hours.",
+    "Transcription note: Yield not stated in original; about 8 loaves (no more than 12 in long) estimated from 15 pounds of ground beef."
+  ]
+}

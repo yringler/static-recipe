@@ -1,0 +1,121 @@
+{
+  "id": "bread-stuffing",
+  "title": "Bread Stuffing",
+  "description": "A large-batch baked stuffing of challah and seedless rye bread stuffing mixed with eggs, sauteed celery and onion, and seasonings.",
+  "category": "side",
+  "tags": [
+    "pareve",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 10,
+    "unit": "pans"
+  },
+  "timing": {
+    "prep": "PT45M",
+    "cook": "PT1H10M",
+    "total": "PT1H55M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 4,
+          "unit": "bags",
+          "item": "challah bread stuffing",
+          "scalable": true
+        },
+        {
+          "quantity": 8,
+          "unit": "bags",
+          "item": "seedless rye bread stuffing",
+          "scalable": true
+        },
+        {
+          "quantity": 8,
+          "unit": "quarts",
+          "item": "liquid whole eggs",
+          "scalable": true
+        },
+        {
+          "quantity": 4,
+          "unit": "lb bag",
+          "item": "diced celery",
+          "scalable": true
+        },
+        {
+          "quantity": 4,
+          "unit": "lb bag",
+          "item": "diced onion",
+          "scalable": true
+        },
+        {
+          "quantity": 0.75,
+          "unit": "cup",
+          "item": "granulated garlic",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "black pepper",
+          "scalable": false
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "salt",
+          "scalable": false
+        },
+        {
+          "quantity": null,
+          "unit": null,
+          "item": "water",
+          "notes": "sufficient water to make bread stuffing moist",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Sautee onions and celery and drain."
+        },
+        {
+          "instruction": "Using a sufficient large container (I suggest a large cardboard container lined with a garbage bag) combine all ingredients. Be careful not to squeeze the bread while mixing so that it will remain fluffy. If additional moistening is required add sufficient water to moisten but don't overdo it."
+        },
+        {
+          "instruction": "Gently place ingredients in 8 to 10 greased pans. Once again, we don't want to make a brick out of it. Spray with cooking spray and cover with aluminum foil."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Place in oven and bake at 350 to 375 degrees F for about 1 hour.",
+          "duration": "PT1H",
+          "temperature": {
+            "value": 350,
+            "unit": "F"
+          }
+        },
+        {
+          "instruction": "Remove aluminum foil and continue baking until firm to the touch and golden brown. This will only take 5 to 10 minutes at most. Be careful not to burn.",
+          "duration": "PT10M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Serving instructions: For reheating; add 1 to two cups of pareve Osem Chicken Broth per pan. This will give a more moist bread stuffing with a bit more added flavor.",
+    "Oven temperature is given as 350 to 375 degrees F; the step temperature records the lower bound.",
+    "Transcription note: Yield not stated explicitly; taken from 'place ingredients in 8 to 10 greased pans' (upper bound used).",
+    "Timing estimated; not stated in original."
+  ]
+}

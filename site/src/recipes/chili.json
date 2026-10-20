@@ -1,0 +1,99 @@
+{
+  "id": "chili",
+  "title": "Chili",
+  "description": "A large-batch ground beef chili with diced tomatoes, tomato sauce, onions and celery.",
+  "category": "main",
+  "tags": [
+    "meat",
+    "beef",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 1,
+    "unit": "pot"
+  },
+  "timing": {
+    "prep": "PT45M",
+    "cook": "PT30M",
+    "total": "PT1H15M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 2,
+          "unit": "#10 cans",
+          "item": "dice tomatoes",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "#10 can",
+          "item": "tomato sauce",
+          "scalable": true
+        },
+        {
+          "quantity": 12,
+          "unit": "lbs",
+          "item": "ground beef",
+          "scalable": true
+        },
+        {
+          "quantity": 5,
+          "unit": "lbs",
+          "item": "diced onions",
+          "scalable": true
+        },
+        {
+          "quantity": 5,
+          "unit": "lbs",
+          "item": "diced celery",
+          "scalable": true
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "chili powder",
+          "scalable": false
+        },
+        {
+          "quantity": 0.25,
+          "unit": "cup",
+          "item": "garlic powder",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Sautee ground beef, onions and celery separately and drain."
+        },
+        {
+          "instruction": "Combine all ingredients in large pot."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Simmer for 30 minutes stirring continuously.",
+          "duration": "PT30M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Transcription note: The left edge of the scan is clipped, cutting off the first letters of the section labels (\"ngredients\", \"reparation\", \"ooking Instructions\"); the labels were inferred as Ingredients, Preparation and Cooking Instructions. No ingredient or step text appears to be lost.",
+    "Transcription note: \"dice tomatoes\" is printed as such (likely meaning diced tomatoes); kept as printed.",
+    "Transcription note: Yield not stated in original; recorded as 1 pot.",
+    "Timing estimated; not stated in original.",
+    "Cook time is the stated 30-minute simmer."
+  ]
+}

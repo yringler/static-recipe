@@ -1,0 +1,92 @@
+{
+  "id": "lentil-soup",
+  "title": "Lentil Soup",
+  "description": "A large-batch lentil soup simmered with browned onions, white pepper and dry beef-flavor soup mix.",
+  "category": "soup",
+  "tags": [
+    "pareve",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 1,
+    "unit": "large pot"
+  },
+  "timing": {
+    "prep": "PT20M",
+    "cook": "PT2H",
+    "total": "PT2H20M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 3,
+          "unit": "quarts",
+          "item": "dried lentils",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "bag",
+          "item": "diced onions",
+          "notes": "2 lbs",
+          "scalable": true
+        },
+        {
+          "quantity": 0.125,
+          "unit": "cup",
+          "item": "white pepper",
+          "scalable": false
+        },
+        {
+          "quantity": 1.5,
+          "unit": "cups",
+          "item": "telma beef flavor",
+          "notes": "dry",
+          "scalable": true
+        },
+        {
+          "quantity": 2,
+          "unit": "cups",
+          "item": "oil",
+          "scalable": true
+        },
+        {
+          "quantity": 12,
+          "unit": "cups",
+          "item": "water",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Sautee onions until brown and drain well."
+        },
+        {
+          "instruction": "Add white pepper and beef flavor to boiling water and then add lentils. Bring to boil again, add sautéed onions and simmer. (cover)"
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Simmer for 1 1/2 to 2 hours until lentils are tender. Note that if any resistance is met on the bottom of the pot, remove pot from burner. Remember that pilot light will cause scorching.",
+          "duration": "PT2H"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Telma beef flavor is a dry soup mix; the recipe is meat-free as written.",
+    "Transcription note: Yield not stated in original; recorded as 1 large pot.",
+    "Timing estimated; not stated in original. Prep time is an estimate; cook time uses the upper bound of the stated 1 1/2 to 2 hours."
+  ]
+}

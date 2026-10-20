@@ -1,0 +1,101 @@
+{
+  "id": "vegetable-soup",
+  "title": "Vegetable Soup",
+  "description": "A large-batch tomato-based soup with mixed vegetables and acini di pepe pasta.",
+  "category": "soup",
+  "tags": [
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 12,
+    "unit": "quarts"
+  },
+  "timing": {
+    "prep": "PT20M",
+    "cook": "PT30M",
+    "total": "PT50M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 6,
+          "unit": "quarts",
+          "item": "water",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "#10 can",
+          "item": "tomato sauce",
+          "scalable": true
+        },
+        {
+          "quantity": 0.5,
+          "unit": "cup",
+          "item": "sugar",
+          "notes": "to taste",
+          "scalable": false
+        },
+        {
+          "quantity": 2,
+          "unit": "tsb",
+          "item": "salt",
+          "notes": "2 to 3 tsb; to taste",
+          "scalable": false
+        },
+        {
+          "quantity": 2,
+          "unit": "quarts",
+          "item": "acini depipi",
+          "scalable": true
+        },
+        {
+          "quantity": 1.5,
+          "unit": "cups",
+          "item": "telma instant beef broth",
+          "scalable": true
+        },
+        {
+          "quantity": 4,
+          "unit": "bags",
+          "item": "mixed vegetable",
+          "notes": "2 lbs/bag",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Bring 6 quarts of water to boil, add sugar, salt, tomato sauce, telma instant beef broth, stir vigorously then add mixed vegetables and stir."
+        },
+        {
+          "instruction": "Bring about 4 quarts of water to boil, remove from heat, add acini depipi, cover and let stand for 15 to 20 minutes.",
+          "duration": "PT20M"
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Cook until soup just starts to boil, remove from heat and then add acini depipi."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Transcription note: Salt unit printed as 'tsb' (ambiguous between tsp and tbsp); kept as printed.",
+    "Transcription note: 'acini depipi' kept as printed (acini di pepe pasta).",
+    "Transcription note: The final word 'minutes' is clipped at the right edge of the scan.",
+    "Transcription note: The extra ~4 quarts of water for the acini depipi is not in the ingredient list.",
+    "Transcription note: Yield not stated in original; estimated at about 12 quarts.",
+    "Timing estimated; not stated in original."
+  ]
+}

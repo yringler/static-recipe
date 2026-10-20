@@ -1,0 +1,91 @@
+{
+  "id": "matzah-balls",
+  "title": "Matzah Balls",
+  "description": "Soft matzah balls made from matzah meal, whole eggs, oil and water, boiled and stored in broth.",
+  "category": "soup",
+  "tags": [
+    "pareve",
+    "passover",
+    "large-batch",
+    "swaying-branches"
+  ],
+  "source": "https://swaying-branches.blogspot.com/2019/02/recipes.html",
+  "yield": {
+    "amount": 1,
+    "unit": "batch"
+  },
+  "timing": {
+    "prep": "PT30M",
+    "cook": "PT40M",
+    "total": "PT1H10M",
+    "rest": "PT15M"
+  },
+  "ingredients": [
+    {
+      "items": [
+        {
+          "quantity": 1,
+          "unit": "16 oz box",
+          "item": "matzah meal",
+          "scalable": true
+        },
+        {
+          "quantity": 1,
+          "unit": "quart",
+          "item": "whole eggs",
+          "scalable": true
+        },
+        {
+          "quantity": 0.75,
+          "unit": "cup",
+          "item": "oil",
+          "scalable": true
+        },
+        {
+          "quantity": 1.5,
+          "unit": "cups",
+          "item": "water",
+          "scalable": true
+        },
+        {
+          "quantity": 18,
+          "unit": "quarts",
+          "item": "boiling water",
+          "notes": "for cooking",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "heading": "Preparation",
+      "steps": [
+        {
+          "instruction": "Mix eggs, oil and water, add matzah meal and mix thoroughly once again. The consistency of the mixture should be like cream of wheat. (on the soft side)"
+        },
+        {
+          "instruction": "Cover and let stand in the refrigerator for 15 minutes. It will become somewhat firmer. If it's too firm, matzah balls will be hard and black in the center when cooked. Just add water to soften.",
+          "duration": "PT15M"
+        },
+        {
+          "instruction": "Using a 1 5/8 scoop, round and place into boiling water."
+        }
+      ]
+    },
+    {
+      "heading": "Cooking Instructions",
+      "steps": [
+        {
+          "instruction": "Boil for 30 to 40 minutes, drain and store immersed in Osem pareve chicken broth.",
+          "duration": "PT40M"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "It's better that the matza ball mix be on the softer side to insure soft matza balls. So long as the water is vigorously boiling they will not fall apart.",
+    "Prep time estimated; not stated in original. Cook time is the stated 30 to 40 minutes.",
+    "Transcription note: Yield not stated in original; recorded as 1 batch (one 16 oz box of matzah meal, portioned with a 1 5/8 scoop)."
+  ]
+}
