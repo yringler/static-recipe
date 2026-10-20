@@ -99,6 +99,10 @@ ul, ol {
   color: #888;
 }
 
+.site-footer a {
+  color: inherit;
+}
+
 /* --- Home Page --------------------------------------------- */
 .home h1 {
   font-size: 2rem;
