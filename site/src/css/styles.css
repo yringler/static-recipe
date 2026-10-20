@@ -218,9 +218,13 @@ a.tag-pill:hover {
 }
 
 .all-tags-section {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 2px solid #e5e5e0;
+  margin-bottom: 3rem;
+}
+
+.all-tags-section h2 {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 1rem;
 }
 
 /* --- Category Badge ---------------------------------------- */
@@ -511,7 +515,7 @@ body.is-reviewing .recipe-layout {
 }
 
 /* Narrow screens: original is pinned as a bottom sheet, recipe scrolls above */
-@media (max-width: 999px) {
+@media (max-width: 699px) {
   .source-pane {
     position: fixed;
     left: 0;
@@ -532,7 +536,7 @@ body.is-reviewing .recipe-layout {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   body.is-reviewing .recipe-layout {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     align-items: start;
@@ -543,10 +547,11 @@ body.is-reviewing .recipe-layout {
     grid-template-columns: 1fr;
   }
 
+  /* Stick below the sticky 56px site header, and fit the rest of the viewport */
   .source-pane {
     position: sticky;
-    top: 1rem;
-    height: calc(100vh - 2rem);
+    top: calc(56px + 1rem);
+    height: calc(100vh - 56px - 2rem);
   }
 }
 

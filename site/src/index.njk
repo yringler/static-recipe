@@ -4,7 +4,16 @@ title: All Recipes
 ---
 <div class="home">
   <h1>Recipe Collection</h1>
-  <p class="home-intro">Browse recipes by category, or explore by <a href="#tags">tag</a>.</p>
+  <p class="home-intro">Browse recipes by tag or category.</p>
+
+  <section class="all-tags-section" id="tags" aria-labelledby="tags-heading">
+    <h2 id="tags-heading">Browse by Tag</h2>
+    <ul class="tag-list tag-list-large">
+      {% for tag in collections.allTags %}
+      <li><a href="/tags/{{ tag }}/" class="tag-pill">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
 
   {% for group in collections.recipesByCategory %}
   <section class="category-section" aria-labelledby="cat-{{ group.category }}">
@@ -32,13 +41,4 @@ title: All Recipes
     </ul>
   </section>
   {% endfor %}
-
-  <section class="all-tags-section" id="tags" aria-labelledby="tags-heading">
-    <h2 id="tags-heading">Browse by Tag</h2>
-    <ul class="tag-list tag-list-large">
-      {% for tag in collections.allTags %}
-      <li><a href="/tags/{{ tag }}/" class="tag-pill">{{ tag }}</a></li>
-      {% endfor %}
-    </ul>
-  </section>
 </div>
