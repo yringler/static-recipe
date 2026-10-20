@@ -5,6 +5,7 @@ export interface Recipe {
   category: string;              // e.g. "bread", "main", "dessert", "side", "soup"
   tags: string[];                // e.g. ["shabbos", "dairy", "quick"]
   source?: string;               // attribution — cookbook name, URL, "family recipe", etc.
+  sourceImages?: string[];       // scans of the original, in page order; absolute URL or path relative to the image base URL
 
   yield: {
     amount: number;              // e.g. 10

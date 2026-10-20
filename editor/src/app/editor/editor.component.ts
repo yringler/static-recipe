@@ -69,6 +69,7 @@ export class EditorComponent implements OnInit {
         recipe.steps.map((g) => this.buildStepGroup(g))
       ),
       notes: this.fb.array((recipe.notes ?? []).map((n) => new FormControl(n))),
+      sourceImages: this.fb.array((recipe.sourceImages ?? []).map((u) => new FormControl(u))),
     });
   }
 
@@ -121,6 +122,10 @@ export class EditorComponent implements OnInit {
 
   get notes(): FormArray {
     return this.form.get('notes') as FormArray;
+  }
+
+  get sourceImages(): FormArray {
+    return this.form.get('sourceImages') as FormArray;
   }
 
   getIngredientItems(groupIndex: number): FormArray {
@@ -213,6 +218,16 @@ export class EditorComponent implements OnInit {
     this.notes.removeAt(i);
   }
 
+  // ---- Source Image Management -------------------------------------
+
+  addSourceImage(): void {
+    this.sourceImages.push(new FormControl(''));
+  }
+
+  removeSourceImage(i: number): void {
+    this.sourceImages.removeAt(i);
+  }
+
   // ---- Load / Generate / Copy --------------------------------------
 
   loadNewRecipe(): void {
@@ -297,6 +312,7 @@ export class EditorComponent implements OnInit {
     );
 
     const notes: string[] = (v.notes ?? []).filter((n: string) => n.trim());
+    const sourceImages: string[] = (v.sourceImages ?? []).filter((u: string) => u.trim());
 
     return {
       id: v.id,
@@ -305,6 +321,7 @@ export class EditorComponent implements OnInit {
       category: v.category,
       tags: (v.tags ?? []).filter((t: string) => t.trim()),
       ...(v.source ? { source: v.source } : {}),
+      ...(sourceImages.length > 0 ? { sourceImages } : {}),
       yield: { amount: Number(v.yieldAmount), unit: v.yieldUnit },
       timing: {
         prep: toISO8601(v.timingPrep),

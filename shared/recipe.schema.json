@@ -19,6 +19,11 @@
       "items": { "type": "string" }
     },
     "source": { "type": "string" },
+    "sourceImages": {
+      "type": "array",
+      "description": "Scans/photos of the original recipe, in page order. Absolute URLs, or paths relative to the site's image base URL.",
+      "items": { "type": "string", "minLength": 1 }
+    },
     "yield": {
       "type": "object",
       "required": ["amount", "unit"],

@@ -63,6 +63,12 @@ export default function (eleventyConfig) {
     return parts.join(" ") || iso;
   });
 
+  // Filter: resolve a sourceImages entry against the image base URL
+  eleventyConfig.addFilter("imageUrl", function (path, base) {
+    if (/^https?:\/\//.test(path)) return path;
+    return base.replace(/\/?$/, "/") + path.replace(/^\//, "");
+  });
+
   // Filter: format temperature object
   eleventyConfig.addFilter("formatTemp", function (temp) {
     if (!temp) return "";
